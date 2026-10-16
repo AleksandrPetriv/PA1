@@ -21,7 +21,7 @@ MATRIX initM(int a, int b){
 
 void freeMatrix(MATRIX * inp){
 	for(int i = 0; i < (*inp)->x; i++){
-		//free(inp->arr[1]
+		//free(inp->arr[i]
 	       free((*inp)->arr[i]);
 	}
 		//free(inp->arr)
